@@ -162,7 +162,7 @@ server:
     USE_THREAD_TRACKER: false        #[SEVERE] This deadlock auditing thing will bloat the memory as fast as the time frame one takes to lose track of a raindrop on a tempesting day. Only for debugging purposes.
 
     #Database Configuration
-    DB_URL: "jdbc:mysql://localhost:3306/heavenms?characterEncoding=latin1"
+    DB_URL: "jdbc:mysql://database-1.cbljf4mugvj8.ap-southeast-1.rds.amazonaws.com:3306/heavenms?characterEncoding=latin1"
     DB_USER: "root"
     DB_PASS: "password"
     DB_CONNECTION_POOL: true        #Installs a connection pool to hub DB connections. Set false to default.
