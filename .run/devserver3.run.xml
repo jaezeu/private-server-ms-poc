@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="devserver3" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="net.server.Server" />
+    <module name="HeavenMS" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
